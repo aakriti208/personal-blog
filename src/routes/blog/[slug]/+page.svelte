@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-  <title>{post.title} — your name</title>
+  <title>{post.title} — aakriti</title>
 </svelte:head>
 
 <Navbar />
@@ -23,7 +23,7 @@
   <span class="button-container">[<a href="/blog" class="back-link">back</a>]</span>
 
   <div class="metadata">
-    <p>Your Name, {dateStr}</p>
+    <p>aakriti, {dateStr}</p>
     <p>·</p>
     <p>{stats.words} Words, {stats.minutes} Minutes</p>
   </div>

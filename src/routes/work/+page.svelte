@@ -93,7 +93,6 @@
   .page-content {
     width: 100%;
     padding-top: 4px;
-    max-width: 700px;
   }
 
   .toc-box {

@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>about — your name</title>
+  <title>about — aakriti dhakal</title>
 </svelte:head>
 
 <Navbar />
@@ -14,35 +14,31 @@
   <h1>about</h1>
   <Divider />
 
-  <!-- tl;dr -->
-  <section>
-    <h2>tl;dr</h2>
-    <ul>
-      <li>software engineer based in [City, State]</li>
-      <li>interested in distributed systems, ML, and developer tooling</li>
-      <li>currently working on [what you're building]</li>
-      <li>previously studied [degree] at [university]</li>
-      <li>open to interesting conversations — reach out via <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">linkedin</a></li>
-    </ul>
+    <!-- hi! -->
+    <section>
+    <h2>hi.</h2>
+    <p> Hey there. I’m Aakriti, a software and AI engineer currently working as a graduate researcher focused on building intelligent systems and practical AI applications. 
+    <br>
+    <br>
+    My background spans software engineering, machine learning, AI engineering, and product design. I’ve always enjoyed writing, and this blog is a way for me to return to that habit. Here, I write about building with AI, software engineering, and the technical ideas I explore along the way.
+    <br>
+    <br>
+    Outside of work, I spend time cooking, gardening, hiking, and lifting heavy in the gym.
+
+    </p>
   </section>
 
   <hr class="section-divider" />
 
-  <!-- Background -->
+  <!-- tl;dr -->
   <section>
-    <h2>background</h2>
-    <p>
-      hi, i'm <strong>your name</strong>. i write software and occasionally words.
-    </p>
-    <p>
-      i'm interested in distributed systems, programming languages, and the intersection
-      of technology and society. i try to build things that are simple, correct, and fast —
-      roughly in that order.
-    </p>
-    <p>
-      currently working at <strong>company name</strong> on [whatever you're building].
-      previously at <strong>previous company</strong> doing something interesting.
-    </p>
+    <h2>tl;dr</h2>
+    <ul>
+      <li>Software engineer based in Austin, Texas</li>
+      <li>Interested in Web Development, AI, and NLP</li>
+      <li>Currently working on building scalable RAG pipelines</li>
+      <li>Open to interesting conversations — reach out via <a href="https://www.linkedin.com/in/aakriti-dhakal/" target="_blank" rel="noopener noreferrer">linkedin</a></li>
+    </ul>
   </section>
 
   <hr class="section-divider" />
@@ -95,27 +91,14 @@
 
   <hr class="section-divider" />
 
-  <!-- Education -->
-  <section>
-    <h2>education</h2>
-    <p>
-      <strong>B.S. in Computer Science</strong> — University Name, 20XX
-    </p>
-    <p>
-      Relevant coursework: algorithms, operating systems, machine learning, databases,
-      distributed systems.
-    </p>
-  </section>
-
-  <hr class="section-divider" />
 
   <!-- Contact -->
   <section>
     <h2>contact</h2>
     <p>
-      best way to reach me is <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">linkedin</a>
-      or <a href="mailto:you@example.com">email</a>.
-      i'm generally responsive within a few days.
+      Best way to reach me is <a href="https://www.linkedin.com/in/aakriti-dhakal/" target="_blank" rel="noopener noreferrer">linkedin</a>
+      or <a href="mailto:aakritidh208@gmail.com">email</a>.
+      I'm generally responsive within a day or two.
     </p>
   </section>
 </main>
@@ -124,7 +107,6 @@
   .page-content {
     width: 100%;
     padding-top: 4px;
-    max-width: 700px;
   }
 
   section {
